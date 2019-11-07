@@ -1,6 +1,14 @@
 ### dev
 
-[full changelog](http://github.com/yolk/valvat/compare/v0.8.0...master)
+[full changelog](http://github.com/yolk/valvat/compare/v0.8.1...master)
+
+*  Update normalize regexp to clean spaces, punctuation and control chars (by [jarthod](https://github.com/jarthod))
+
+### 0.8.1 / 2019-07-30
+
+[full changelog](http://github.com/yolk/valvat/compare/v0.8.0...v0.8.1)
+
+* Added Norwegian translation (by [erikaxel](https://github.com/erikaxel))
 
 ### 0.8.0 / 2019-07-19
 

@@ -11,10 +11,10 @@ Validates european vat numbers. Standalone or as a ActiveModel validator.
 * Lookup via the VIES web service
 * ActiveModel/Rails integration
 * Works standalone without ActiveModel
-* I18n locales for language specific error messages in English, German, French, Spanish, Italian, Portuguese, Polish, Swedish, Dutch, Danish, Czech, Slovakian, Hungarian, Bulgarian, Romanian, Latvian, Catalan, and Finnish.
+* I18n locales for language specific error messages in English, German, French, Spanish, Italian, Portuguese, Polish, Swedish, Dutch, Danish, Czech, Slovakian, Hungarian, Bulgarian, Romanian, Latvian, Catalan, Norwegian, and Finnish.
 * *Experimental* checksum verification
 
-valvat is tested and works with ruby MRI 1.9.3/2.0/2.1/2.2/2.3/2.4, jruby (in 1.9 mode) and ActiveModel 3/4/5
+valvat is tested and works with ruby MRI 1.9.3/2.0/2.1/2.2/2.3/2.4/2.5/2.6, jruby (in 1.9 mode) and ActiveModel 3/4/5
 
 ## Installation
 
@@ -202,30 +202,12 @@ There seems to be a problem when using the VIES service over IPv6. Sadly this is
 
 ## Contributions by
 
-* [ndnenkov](https://github.com/ndnenkov)
-* [0ctobat](https://github.com/0ctobat)
-* [kaapa](https://github.com/kaapa)
-* [descala](https://github.com/descala)
-* [Carlos Hernández Medina](https://github.com/polimorfico)
-* [Julik Tarkhanov](https://github.com/julik)
-* [Roman Lehnert](https://github.com/romanlehnert)
-* [0scarius](https://github.com/0scarius)
-* [Davidslv](https://github.com/Davidslv)
-* [brianphillips](https://github.com/brianphillips)
-* [wasi](https://github.com/wasi)
-* [liggitt](https://github.com/liggitt)
-* [nevesenin](https://github.com/nevesenin)
-* [shaundaley39](https://github.com/shaundaley39)
-* [lcx](https://github.com/lcx)
-* [kirichkov](https://github.com/kirichkov)
-* [borodiychuk](https://github.com/borodiychuk)
-* [opsidao](https://github.com/opsidao)
-* [henrik](https://github.com/henrik)
-* [SpoBo](https://github.com/SpoBo)
-* [Deb Bassett](https://github.com/urbanwide)
+https://github.com/yolk/valvat/graphs/contributors
 
 ## BlaBla
 
-Copyright (c) 2011-2017 Yolk Sebastian Munz & Julia Soergel GbR
+Copyright (c) 2011-2019 Yolk Sebastian Munz & Julia Soergel GbR
 
 Beyond that, the implementation is licensed under the MIT License.
+
+Code was originally extracted from our time tracking webapp [mite](https://mite.yo.lk/en/).
