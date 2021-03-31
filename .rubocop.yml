@@ -1,0 +1,15 @@
+require: rubocop-rspec
+AllCops:
+    NewCops: enable
+    TargetRubyVersion: 2.5
+
+Metrics/BlockLength:
+  Exclude:
+    - valvat.gemspec
+    - spec/**/*_spec.rb
+
+Style/Documentation:
+    Enabled: false
+
+RSpec/MultipleExpectations:
+    Enabled: false

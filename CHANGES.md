@@ -1,6 +1,50 @@
+
 ### dev
 
-[full changelog](http://github.com/yolk/valvat/compare/v0.8.2...master)
+[full changelog](http://github.com/yolk/valvat/compare/v1.1.0...master)
+
+### 1.1.0 / 2021-01-15
+
+[full changelog](http://github.com/yolk/valvat/compare/v1.0.1...v1.1.0)
+
+* Added support for Northern Ireland XI prefixed VAT numbers (by [Avatar Ignacy Kasperowicz](https://github.com/kspe))
+* ActiveModel: Return specific error message if VIES is down and fail_if_down is set to true (by [Arkadiy Zabazhanov](https://github.com/pyromaniac))
+* Removed support for EOL rubies (all before 2.5) and ActiveModel before 5.0
+
+### 1.0.1 / 2020-12-06
+
+[full changelog](http://github.com/yolk/valvat/compare/v1.0.0...v1.0.1)
+
+* Added missing spaces to malformatted portuegese locale file
+* Removed GB from EU_COUNTRIES / EU_MEMBER_STATES but kept support
+* Fixed typo in error message: UNK(N)OWN (by [Igor Gonchar](https://github.com/gigorok))
+
+### 1.0.0 / 2020-11-06
+
+[full changelog](http://github.com/yolk/valvat/compare/v0.9.1...v1.0.0)
+
+* Refactored lookup to use specific rescue for savons soapfaults
+* Raises vies specific error classes to help debugging temporary and permanent VIES errors
+* Lookup#validate supports :savon option to allow altering the behaviour of the used savon client
+* ActiveModel validator now supports all lookup options.
+* Use https instead of http for accessing vies (by [Crazy Chris](https://github.com/lubekpl))
+* Lookup#validate supports :raise_error option to return nil instead of raising (known) error when connecting to the VIES web service.
+* [BUGFIX] Checksum: Prevent error on some invalid IE vat numbers
+* EN: Capitalized VAT in error messages (and specs) (by [Vitalii Kashoid](https://github.com/Kashoid23))
+
+### 0.9.1 / 2020-03-19
+
+[full changelog](http://github.com/yolk/valvat/compare/v0.9.0...v0.9.1)
+
+* Follow redirects to fix alteration of VIES-API (by [xxswingxx](https://github.com/xxswingxx))
+
+### 0.9.0 / 2020-02-28
+
+[full changelog](http://github.com/yolk/valvat/compare/v0.8.2...v0.9.0)
+
+* Validate new dutch 2020 vat identification number (by [yvonnenieuwerth](https://github.com/yvonnenieuwerth))
+* Set the country adjectives to masculine in FR locales (by [bobmaerten](https://github.com/bobmaerten))
+* Fix greek country adjectif in french (by [bobmaerten](https://github.com/bobmaerten))
 
 ### 0.8.2 / 2019-11-15
 

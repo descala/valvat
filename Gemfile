@@ -1,7 +1,8 @@
-source 'http://rubygems.org'
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
 
 # Specify your gem's dependencies in valvat.gemspec
 gemspec
 
-gem 'rake'
 gem 'guard-rspec', '~>4.0'
